@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Gara {
 
-    static void main(String[] args) {
+ public static void main(String[] args) {
         int MIN_PART = 2;
         int MAX_PART = 4;
         int MIN_LUNGH = 10;
