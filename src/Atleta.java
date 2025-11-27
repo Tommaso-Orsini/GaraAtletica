@@ -1,4 +1,7 @@
 import java.util.Random;
+
+
+
 public class Atleta implements Runnable {
     private final int numero;
     private final String nome;

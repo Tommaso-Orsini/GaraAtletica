@@ -2,7 +2,11 @@ import java.util.*;
 
 public class Gara {
 
-    static void main(String[] args) {
+    static void main() {
+        main(null);
+    }
+
+   public static void main(String[] args) {
         int MIN_PART = 2;
         int MAX_PART = 4;
         int MIN_LUNGH = 10;
@@ -11,6 +15,12 @@ public class Gara {
         int lunghezzaPercorso;
 
         System.out.println("Benvenuto alla gara atletica");
+       GestioneFile gestore = new GestioneFile("classifica.txt");
+       gestore.leggiClassificaPrecedente();
+
+
+       System.out.println("Benvenuto alla gara atletica");
+
 
         // Scegli numero partecipanti
         do {
